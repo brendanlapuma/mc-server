@@ -1,0 +1,31 @@
+[14:39:51] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[14:39:51] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.9
+	   \-- mixinextras 0.4.1
+	- java 23
+	- minecraft 1.21.4
+[14:39:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/blapuma/Documents/GitHub/mc-server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:39:54] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:39:54] [main/INFO]: No existing world data, creating new world
+[14:39:54] [main/INFO]: Loaded 1370 recipes
+[14:39:54] [main/INFO]: Loaded 1481 advancements
+[14:39:54] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[14:39:54] [Server thread/INFO]: Loading properties
+[14:39:54] [Server thread/INFO]: Default game type: SURVIVAL
+[14:39:54] [Server thread/INFO]: Generating keypair
+[14:39:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:39:54] [Server thread/INFO]: Using default channel type
+[14:39:54] [Server thread/INFO]: Preparing level "world"
+[14:39:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:39:56] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[14:39:56] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[14:39:57] [Worker-Main-8/INFO]: Preparing spawn area: 18%
+[14:39:57] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[14:39:57] [Server thread/INFO]: Time elapsed: 1582 ms
+[14:39:57] [Server thread/INFO]: Done (2.960s)! For help, type "help"
+[14:40:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:42:19] [User Authenticator #1/INFO]: UUID of player GorillaPerson9 is 931096b3-0e3c-4e17-8404-53ffd3ef7826
+[14:42:19] [Server thread/INFO]: GorillaPerson9[/127.0.0.1:57725] logged in with entity id 17 at (3.5, 71.0, -1.5)
+[14:42:19] [Server thread/INFO]: GorillaPerson9 joined the game
+[14:42:38] [Server thread/INFO]: GorillaPerson9 lost connection: Disconnected
+[14:42:38] [Server thread/INFO]: GorillaPerson9 left the game
