@@ -1,6 +1,9 @@
 # Use an official OpenJDK runtime as a parent image
 FROM openjdk:23-jdk-slim
 
+# screen allows you to attach to the server process and execute commands
+RUN apt-get update && apt-get install -y screen
+
 # Set the working directory
 WORKDIR /usr/src/minecraft
 
