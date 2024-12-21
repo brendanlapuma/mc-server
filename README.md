@@ -64,3 +64,20 @@ docker attach <container id>
 ```
 
 Also, use Ctrl+P followed by Ctrl+Q to detach (Ctrl+C will kill the container)
+
+5. **Backing up the server (from google cloud VM)**
+
+Set up ssh (you can google that)
+
+ssh into the VM and copy the world folder out of the docker container:
+
+```
+docker cp <container name>:/usr/src/minecraft/world/ .
+```
+
+Exit the ssh, cd into the Documents folder locally, and run the following:
+
+```
+gcloud compute scp --recurse <vm name>:/home/blapuma/world/ ~/Documents
+```
+
