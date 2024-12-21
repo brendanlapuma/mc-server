@@ -5192,6 +5192,12 @@
     },
     "done": true
   },
+  "create:train_roadkill": {
+    "criteria": {
+      "0": "2024-12-21 03:29:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2024-12-21 02:48:55 +0000"
