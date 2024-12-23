@@ -7,6 +7,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cherry_grove": "2024-12-21 19:17:47 +0000",
+      "minecraft:sunflower_plains": "2024-12-23 02:27:12 +0000",
+      "minecraft:birch_forest": "2024-12-21 16:08:30 +0000",
       "minecraft:windswept_hills": "2024-12-16 01:22:34 +0000",
       "minecraft:wooded_badlands": "2024-12-20 01:01:28 +0000",
       "minecraft:badlands": "2024-12-20 01:21:29 +0000",
@@ -15,10 +18,14 @@
       "minecraft:river": "2024-12-16 01:31:17 +0000",
       "minecraft:lukewarm_ocean": "2024-12-20 01:03:43 +0000",
       "minecraft:stony_shore": "2024-12-20 01:01:08 +0000",
+      "minecraft:swamp": "2024-12-21 15:37:09 +0000",
       "minecraft:forest": "2024-12-16 01:31:26 +0000",
       "minecraft:desert": "2024-12-16 02:14:37 +0000",
       "minecraft:windswept_savanna": "2024-12-16 01:22:37 +0000",
       "minecraft:warm_ocean": "2024-12-16 02:18:37 +0000",
+      "minecraft:flower_forest": "2024-12-23 03:51:40 +0000",
+      "minecraft:old_growth_birch_forest": "2024-12-21 16:09:47 +0000",
+      "minecraft:meadow": "2024-12-21 16:06:11 +0000",
       "minecraft:savanna": "2024-12-16 00:52:37 +0000",
       "minecraft:plains": "2024-12-16 01:23:30 +0000"
     },
@@ -374,6 +381,7 @@
       "minecraft:spider": "2024-12-16 01:55:10 +0000",
       "minecraft:creeper": "2024-12-16 01:32:05 +0000",
       "minecraft:slime": "2024-12-20 22:03:56 +0000",
+      "minecraft:witch": "2024-12-23 02:58:26 +0000",
       "minecraft:wither_skeleton": "2024-12-18 01:46:35 +0000",
       "minecraft:husk": "2024-12-16 13:51:34 +0000",
       "minecraft:zombie": "2024-12-16 01:20:44 +0000",
@@ -614,7 +622,8 @@
     "criteria": {
       "cooked_porkchop": "2024-12-16 01:45:38 +0000",
       "cooked_mutton": "2024-12-16 01:25:31 +0000",
-      "cooked_beef": "2024-12-18 01:35:11 +0000"
+      "cooked_beef": "2024-12-18 01:35:11 +0000",
+      "cooked_chicken": "2024-12-22 23:18:11 +0000"
     },
     "done": false
   },
@@ -5162,6 +5171,18 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/appliances/schedule_clear": {
+    "criteria": {
+      "has_item": "2024-12-21 02:02:01 +0000"
+    },
+    "done": true
+  },
+  "create:track_crafting_factory": {
+    "criteria": {
+      "0": "2024-12-21 02:07:24 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2024-12-21 02:14:15 +0000"
@@ -5192,27 +5213,9 @@
     },
     "done": true
   },
-  "create:train_roadkill": {
-    "criteria": {
-      "0": "2024-12-21 03:29:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin": "2024-12-21 02:48:55 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2024-12-21 02:14:15 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/schedule_clear": {
-    "criteria": {
-      "has_item": "2024-12-21 02:02:01 +0000"
     },
     "done": true
   },
@@ -5231,12 +5234,6 @@
   "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2024-12-21 02:14:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pumpkin": "2024-12-21 02:48:55 +0000"
     },
     "done": true
   },
@@ -5276,21 +5273,159 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-12-21 02:14:15 +0000"
+    },
+    "done": true
+  },
   "create:conductor": {
     "criteria": {
       "0": "2024-12-21 02:19:58 +0000"
     },
     "done": true
   },
-  "create:track_crafting_factory": {
+  "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
-      "0": "2024-12-21 02:07:24 +0000"
+      "has_pumpkin": "2024-12-21 02:48:55 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
+  "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
-      "has_seat": "2024-12-21 02:14:15 +0000"
+      "has_pumpkin": "2024-12-21 02:48:55 +0000"
+    },
+    "done": true
+  },
+  "create:train_roadkill": {
+    "criteria": {
+      "0": "2024-12-21 03:29:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-12-21 15:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2024-12-21 15:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-12-21 15:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2024-12-21 15:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2024-12-21 15:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-12-21 15:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2024-12-21 15:59:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2024-12-21 15:59:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-12-22 19:46:23 +0000"
+    },
+    "done": true
+  },
+  "create:display_link": {
+    "criteria": {
+      "0": "2024-12-22 19:48:22 +0000"
+    },
+    "done": true
+  },
+  "create:display_board_0": {
+    "criteria": {
+      "0": "2024-12-22 20:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-23 02:38:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-12-23 02:39:34 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2024-12-23 03:38:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2024-12-23 04:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-12-23 04:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-23 04:15:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-23 04:15:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-12-23 04:16:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-12-23 04:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-12-23 04:16:02 +0000"
     },
     "done": true
   },
